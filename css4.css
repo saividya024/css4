@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    padding: 20px 15px;
+}
+.container{
+    position: relative;
+    top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+.left-column{
+    top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.center-column{
+    text-align: center;
+    padding: 300px;
+    margin: 0;
+
+}
+.vidya{
+    border-radius: 25px;
+}
+.right-column{
+    top:6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
